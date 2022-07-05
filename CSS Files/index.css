@@ -80,8 +80,8 @@ body {
   color: #fff;
 }
 
-.wrapper .button:nth-child(1):hover .icon {
-  background: #525659;
+.wrapper .button:nth-child(1) span a {
+  color: #525659;
 }
 .wrapper .button:nth-child(2) span a {
   color: #ea4335;
