@@ -9,7 +9,6 @@ body {
   text-align: center;
 }
 
-
 /* Kendi Fotoğrafım */
 .fotograf {
   margin-top: 50px;
@@ -29,7 +28,6 @@ body {
   margin-bottom: 100px;
 }
 /* /Hakkımda İçeriği */
-
 
 .wrapper {
   display: flex;
@@ -60,12 +58,15 @@ body {
   transition: all 0.3s ease-out;
 }
 .wrapper .button:nth-child(1):hover .icon {
-  background: #EA4335;
+  background: #525659;
 }
 .wrapper .button:nth-child(2):hover .icon {
-  background: #0B65C2;
+  background: #ea4335;
 }
 .wrapper .button:nth-child(3):hover .icon {
+  background: #0b65c2;
+}
+.wrapper .button:nth-child(4):hover .icon {
   background: #161b22;
 }
 
@@ -79,14 +80,15 @@ body {
   color: #fff;
 }
 
-
-
-.wrapper .button:nth-child(1) span a {
-  color: #EA4335;
+.wrapper .button:nth-child(1):hover .icon {
+  background: #525659;
 }
 .wrapper .button:nth-child(2) span a {
-  color: #0B65C2;
+  color: #ea4335;
 }
 .wrapper .button:nth-child(3) span a {
+  color: #0b65c2;
+}
+.wrapper .button:nth-child(4) span a {
   color: #161b22;
 }
